@@ -3,6 +3,13 @@ package com.test.pack;
 public class EmployeeBean {
 private String id;
 private String name;
+private long phoneNumber;
+public long getPhoneNumber() {
+	return phoneNumber;
+}
+public void setPhoneNumber(long phoneNumber) {
+	this.phoneNumber = phoneNumber;
+}
 public String getId() {
 	return id;
 }
