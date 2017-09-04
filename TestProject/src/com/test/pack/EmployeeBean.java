@@ -4,6 +4,7 @@ public class EmployeeBean {
 private String id;
 private String name;
 private long phoneNumber;
+
 private String dept;
 
 public String getDept() {
@@ -11,6 +12,13 @@ public String getDept() {
 }
 public void setDept(String dept) {
 	this.dept = dept;
+}
+private String department;
+public String getDepartment() {
+	return department;
+}
+public void setDepartment(String department) {
+	this.department = department;
 }
 public long getPhoneNumber() {
 	return phoneNumber;
