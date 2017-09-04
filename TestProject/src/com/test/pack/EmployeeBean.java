@@ -4,6 +4,14 @@ public class EmployeeBean {
 private String id;
 private String name;
 private long phoneNumber;
+private String dept;
+
+public String getDept() {
+	return dept;
+}
+public void setDept(String dept) {
+	this.dept = dept;
+}
 public long getPhoneNumber() {
 	return phoneNumber;
 }
